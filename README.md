@@ -1,6 +1,6 @@
 # About
 This repo contains datasets and code for COLING 2022 paper _“No, they did not”: Dialogue response dynamics in pre-trained language
-models_, by Sanghee Kim, Lang Yu and Allyson Ettinger.
+models_, by Sanghee J. Kim, Lang Yu and Allyson Ettinger.
 
 # Repo Structures
 
