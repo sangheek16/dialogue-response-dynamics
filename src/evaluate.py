@@ -88,8 +88,8 @@ def fill_verb_target(model_name, seq, target_words, tokenizer, lang_model):
     
     target_ids = dict()
     for word in target_words:
-        if model_name == "distilroberta-base":
-                target_ids[word] = tokenizer.encode(str(' ') + word)[1]
+        if 'roberta' in model_name:
+            target_ids[word] = tokenizer.encode(str(' ') + word)[1]
         else:
                 target_ids[word] = tokenizer.encode(word)[1]
 
